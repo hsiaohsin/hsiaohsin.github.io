@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ihsin.top</id>
+    <title>猫先生的窝</title>
+    <updated>2022-10-15T09:09:20.588Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ihsin.top"/>
+    <link rel="self" href="https://ihsin.top/atom.xml"/>
+    <subtitle>温馨</subtitle>
+    <logo>https://ihsin.top/images/avatar.png</logo>
+    <icon>https://ihsin.top/favicon.ico</icon>
+    <rights>All rights reserved 2022, 猫先生的窝</rights>
+    <entry>
+        <title type="html"><![CDATA[想你了]]></title>
+        <id>https://ihsin.top/post/xiang-ni-liao/</id>
+        <link href="https://ihsin.top/post/xiang-ni-liao/">
+        </link>
+        <updated>2022-10-15T08:45:07.000Z</updated>
+        <content type="html"><![CDATA[<p>想你了</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基本Git上传步骤]]></title>
+        <id>https://ihsin.top/post/ji-ben-git-shang-chuan-bu-zou/</id>
+        <link href="https://ihsin.top/post/ji-ben-git-shang-chuan-bu-zou/">
+        </link>
+        <updated>2022-10-09T17:42:20.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p><strong>## 打开Windows PowerShell ##</strong></p>
+<!-- more -->
+<pre><code>git add .                                  ##将文件加载到暂存区
+git commit -m .                            ##将文件加载到本地暂存区
+git status                                 ##查询暂存区文件
+git push                                   ##上传到远程仓库
+clear                                      ##清理屏幕
+</code></pre>
+<p>如若提示“rejected  main-&gt;main（non-fast-forward）”<br>
+可用：</p>
+]]></content>
+    </entry>
+</feed>
