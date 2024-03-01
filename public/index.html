@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="随机点名,随机点名网站，在线随机点名,随机点名器,上课随机点名,自定义随机点名"/>
+    <meta name="description" content="本网站主要用于教学中随机点名,提供数字版和姓名版两种随机点名方式"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+<!--    <title>随机点名</title>-->
+    <title>我爱知识分享</title>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3f8228553f2e8aa1e1b78c5f75f7bdff";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <!--<noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>-->
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <% if (process.env.NODE_ENV !== 'offline') { %>
+      <script src="https://www.iaisx.xyz/libs/xlsx/0.17.5/xlsx.core.min.js"></script>
+      <script src="https://www.iaisx.xyz/libs/jschardet/3.0.0/jschardet.min.js"></script>
+    <% } %>
+  </body>
+</html>
